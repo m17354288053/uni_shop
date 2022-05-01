@@ -1,7 +1,7 @@
 # uni_shop
 uniapp编写的电商购物小程序
 
-first commit
+1.first commit
 
 首页静态页已完成,后续更新其他页面
 
