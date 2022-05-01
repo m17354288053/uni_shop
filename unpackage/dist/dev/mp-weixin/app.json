@@ -1,0 +1,48 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/category/index",
+        "pages/shopCart/index",
+        "pages/me/index"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8",
+        "titleImage": "./static/img/home/carousel/矩形 60.png"
+    },
+    "tabBar": {
+        "color": "#b3c1c4",
+        "selectedColor": "#e63214",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "static/img/tabBar/icon_home.png",
+                "selectedIconPath": "static/img/tabBar/icon_select_home.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/category/index",
+                "iconPath": "static/img/tabBar/icon_category.png",
+                "selectedIconPath": "static/img/tabBar/icon_select_category.png",
+                "text": "分类"
+            },
+            {
+                "pagePath": "pages/shopCart/index",
+                "iconPath": "static/img/tabBar/icon_shopcart.png",
+                "selectedIconPath": "static/img/tabBar/icon_select_shopcart.png",
+                "text": "购物车"
+            },
+            {
+                "pagePath": "pages/me/index",
+                "iconPath": "static/img/tabBar/icon_me.png",
+                "selectedIconPath": "static/img/tabBar/icon_select_me.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

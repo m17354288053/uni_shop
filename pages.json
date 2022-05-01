@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		
+		// 分类
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		
+		// 购物车
+		{
+			"path": "pages/shopCart/index",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		
+		// 我的
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"titleImage": "./static/img/home/carousel/矩形 60.png"
+	},
+	"tabBar": {
+		"color": "#b3c1c4",
+		"selectedColor": "#e63214",
+		"list": [
+			// 首页
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabBar/icon_home.png",
+				"selectedIconPath": "static/img/tabBar/icon_select_home.png",
+				"text": "首页"
+			},
+			
+			// 分类
+			{
+				"pagePath": "pages/category/index",
+				"iconPath": "static/img/tabBar/icon_category.png",
+				"selectedIconPath": "static/img/tabBar/icon_select_category.png",
+				"text": "分类"
+			},
+			
+			// 购物车
+			{
+				"pagePath": "pages/shopCart/index",
+				"iconPath": "static/img/tabBar/icon_shopcart.png",
+				"selectedIconPath": "static/img/tabBar/icon_select_shopcart.png",
+				"text": "购物车"
+			},
+			
+			// 我的
+			{
+				"pagePath": "pages/me/index",
+				"iconPath": "static/img/tabBar/icon_me.png",
+				"selectedIconPath": "static/img/tabBar/icon_select_me.png",
+				"text": "我的"
+			}
+		]
+	}	
+}

@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "scroll-view": "/components/scrollView/index",
+    "recommend-product": "/components/recommendProduct/index"
+  }
+}
